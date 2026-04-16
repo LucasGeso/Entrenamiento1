@@ -1,0 +1,41 @@
+body{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: rgb(229, 218, 203);
+    /*overflow-x: hidden;*/
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    align-items: toplane;
+   
+}
+
+.datos{
+    padding: 10px;
+    margin-left: 10%;
+    margin-top: 5%;
+    font-size: 35px;
+    line-height: 0.1;
+}
+
+.foto{
+    margin-left: 25%;
+    /*padding: 10px;*/ /* margen interior, valor 1, arriba y abajo, valor 2, izq y derecha*/
+    margin-top: 5%
+    
+}
+
+.imagen{
+     margin-top: 10%;
+     margin-right: 15%;
+    width: 190px;
+    height: auto;
+}
+
+.down{
+    width: 100%;
+}
+
