@@ -7,7 +7,23 @@
     <title>Contactos</title>
 </head>
 <body>
-    <form action="" method="post"></form>
+    <header>Contactos</header>
+    <form action="" method="post">
+        <label for="nombre">Nombre: </label>
+        <input id="nombre" name="nombre" placeholder="Nombre" type="text">
+        <br>
+        <label for="apellido">Apellido: </label>
+        <input id="apellido" name="apellido" placeholder="Apellido" type="text">
+        <br>
+        <label for="nacimiento">Fecha de Nacimiento: </label>
+        <input id="nacimiento" name="nacimiento" placeholder="Fecha de Nacimiento" type="date">
+        <br>
+        <label class="mensaje" for="msj">Mensaje: </label>
+        <textarea rows="5" cols="40" id="msj" placeholder="Ingrese un mensaje"></textarea>
+        <br>
+        <button type="button">Enviar </button>
+        <button type="reset">Reiniciar </button>
+    </form>
 
     
 </body>
