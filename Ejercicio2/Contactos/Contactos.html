@@ -7,23 +7,27 @@
     <title>Contactos</title>
 </head>
 <body>
-    <header>Contactos</header>
-    <form action="" method="post">
-        <label for="nombre">Nombre: </label>
-        <input id="nombre" name="nombre" placeholder="Nombre" type="text">
-        <br>
-        <label for="apellido">Apellido: </label>
-        <input id="apellido" name="apellido" placeholder="Apellido" type="text">
-        <br>
-        <label for="nacimiento">Fecha de Nacimiento: </label>
-        <input id="nacimiento" name="nacimiento" placeholder="Fecha de Nacimiento" type="date">
-        <br>
-        <label class="mensaje" for="msj">Mensaje: </label>
-        <textarea rows="5" cols="40" id="msj" placeholder="Ingrese un mensaje"></textarea>
-        <br>
-        <button type="button">Enviar </button>
-        <button type="reset">Reiniciar </button>
-    </form>
+    <header><a target="_blank" href="../Index.html">HOME</a>|CONTACTOS</header>
+    <div class="contenedor">
+        <form action="" method="post">
+            <div class="etiqueta">
+                <label for="nombre">Nombre: </label>
+                <input id="nombre" name="nombre" type="text">
+                <label for="email">E-mail: </label>
+                <input id="email" name="email" type="email">
+                <label for="telefono">Tel: </label>
+                <input id="telefono" name="telefono" type="tel">
+                <label class="mensaje" for="msj">Mensaje: </label>
+                <textarea rows="10" cols="80" id="msj"></textarea>
+            </div>
+            <div class="boton">
+                <button class="enviar" type="button">Enviar</button>
+                <button class="cancelar" type="submit">Cancelar</button>
+            </div>
+        </form>
+    </div>
+    <br>
+    <footer>Todos los derechos reservados</footer>
 
     
 </body>
