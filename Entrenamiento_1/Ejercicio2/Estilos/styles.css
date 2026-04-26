@@ -18,8 +18,8 @@ header{
     background-color: white;
     font-size: 200%;
     height: 7%;
-    width: 80%;        /* mismo ancho que el body */
-    left: 50%;         /* lo movés al centro */
+    width: 80%;        
+    left: 50%;         
     transform: translateX(-50%);
     position: fixed;
     top: 0;
@@ -35,8 +35,8 @@ footer{
     background-color: white;
     font-size: 200%;
     height: 7%;
-    width: 80%;        /* mismo ancho que el body */
-    left: 50%;         /* lo movés al centro */
+    width: 80%;        
+    left: 50%;         
     transform: translateX(-50%);
     position:fixed;
     bottom: 0;
